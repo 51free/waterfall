@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	display: block;
+	width: 100%;
+	height: 30px;
+	margin: 10px;
+	text-align: center;
+
+}
+#container{
+	position: absolute;
+	top: 50px;
+}
+
+/*设置box 样式*/
+.box{
+	position: relative;
+	float: left;
+}
+
+/*设置 内容的 样式*/
+.content{
+	padding: 10px;
+	border:1px solid #CCC;
+	box-shadow: 0 0 5px #CCC;
+	border-radius: 5px;
+}
+
+/*设置 图片的 样式*/
+.content img{
+	width: 188px;
+	height: auto;
+}
